@@ -1,0 +1,11 @@
+git_url("https://github.com/ducnguyendjv/ios_certificate.git")
+
+storage_mode("git")
+
+type("development") # The default type, can be: appstore, adhoc, enterprise or development
+
+app_identifier(["com.duc.MDCiCd"])
+
+username("nmduc251194@gmail.com") # Your Apple Developer Portal username
+
+ENV['MATCH_PASSWORD'] = 'qwe123'
