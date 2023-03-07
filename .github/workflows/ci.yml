@@ -14,4 +14,4 @@ jobs:
       - run: echo "Test"
       - run: echo "Done"
       - name: Build and test
-        run: fastlane development
+        run: fastlane ios release build --env
